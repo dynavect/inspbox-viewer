@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" type="image/png" href="assets/images/3dviewer_net_favicon.ico">
+    <meta name="robots" content="noindex,nofollow">
+
+    <title>InspBox | Interactive enclosure</title>
+
+    <!-- meta start -->
+    <!-- meta end -->
+
+    <!-- website start -->
+    <link rel="stylesheet" type="text/css" href="o3dv/o3dv.website.min.css">
+    <script type="text/javascript" src="o3dv/o3dv.website.min.js"></script>
+    <!-- website end -->
+    <!-- plugins start -->
+    <!-- plugins end -->
+
+    
+
+    <script type="text/javascript">
+        if (!location.hash) history.replaceState(null,"",location.pathname+location.search+"#model=models/inspbox-no-pcb.glb");
+        OV.StartWebsite ();
+    </script>
+
+<script src="o3dv/inspbox.min.js"></script><link rel="stylesheet" href="inspbox.css"></head>
+
+<body>
+    <input type="file" id="open_file" style="display:none;" multiple></input>
+    <div class="header" id="header">
+        <div class="title">
+            <div class="title_left">
+                <a href="index.html">
+                    <span class="insp-brand">INSPBOX</span>
+                </a>
+            </div>
+            <div class="title_right" id="header_buttons"></div>
+            <div class="main_file_name only_full_width" id="main_file_name"></div>
+        </div>
+        <div class="insp-meta"><span id="model-status">Loading enclosure...</span><button id="help-button">How to use</button></div>
+<div class="insp-controls">
+<button id="open-enclosure" disabled>Open enclosure</button><button id="show-all" disabled>Show all</button>
+<button id="front-view" disabled>Front</button><button id="iso-view" disabled>Isometric</button><button id="faceplate-view" disabled>Faceplate</button>
+<label>Explode <input aria-label="Explode assembly" id="explode" type="range" min="0" max="100" value="0" disabled><span id="explode-value">0%</span></label>
+<label><input id="section-enabled" type="checkbox" disabled>Section</label><input aria-label="Section depth" id="section-depth" type="range" min="0" max="100" value="30" disabled>
+<button id="reset-view" disabled>Reset</button></div><div class="toolbar" id="toolbar"></div>
+    </div>
+    <div class="main" id="main">
+        <div class="main_left_container only_full_width" id="main_left_container">
+            <div class="main_navigator ov_panel_set_container" id="main_navigator"></div>
+            <div class="main_splitter" id="main_navigator_splitter"></div>
+        </div>
+        <div class="main_viewer" id="main_viewer"></div>
+        <div class="main_right_container only_full_width" id="main_right_container">
+            <div class="main_splitter" id="main_sidebar_splitter"></div>
+            <div class="main_sidebar ov_panel_set_right_container" id="main_sidebar"></div>
+        </div>
+    </div>
+<div class="intro ov_thin_scrollbar" id="intro"><div class="intro_content"><h1>InspBox enclosure</h1><p id="intro_dragdrop_text"></p><p id="intro_formats_title"></p><a href="#model=models/inspbox-no-pcb.glb">Open the enclosure model</a></div></div>
+<dialog id="viewer-help"><h2>Explore the enclosure</h2><p>Drag with the left mouse button to rotate. Scroll to zoom. Use the middle mouse button or right-drag to pan.</p><p>Use the component tree to select parts and toggle their eye icons. Right-click a part for isolation and fit options.</p><p><b>Open enclosure</b> hides the large cover. <b>Show all</b> restores every exported part. <b>Faceplate</b> zooms in on the controls and lettering.</p><p>The ruler tool measures between selected points or parallel faces. Enclosure measurements are shown in millimetres. This browser model is a visual mesh; use the manufacturing CAD for precision work. Reset explode and section before measuring.</p><p>Explode is an illustrative separation, not an assembly sequence. Section cuts are open and do not add solid cut faces.</p><p>The PCB, attached display and board connectors are absent from this file. Other enclosure components and lettering are included.</p><p>Powered by <a href="https://github.com/kovacsv/Online3DViewer" target="_blank" rel="noreferrer">Online 3D Viewer 0.18.0</a> · <a href="licenses/THIRD_PARTY_NOTICES.txt">Open-source licenses</a></p><button id="help-close">Close</button></dialog>
+</body>
+
+</html>
