@@ -4,7 +4,7 @@
   "pcbIncluded": false,
   "units": "meters",
   "measurements": "millimeters",
-  "sourceHash": "e007181ef9342bc7cb35f7e4e0341e8981ee62f30dec86eb6a2d40d44eace737",
+  "sourceHash": "2c3008410c2623f9a9011f37e34dcb9491b71d2cfa38a65b3af698ba44ba27cd",
   "hiddenByDefault": [
     "IB-0236"
   ]
