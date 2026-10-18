@@ -21,5 +21,7 @@ are included under `licenses/` and the relevant asset directories. Those license
 apply to the software/assets; they do not grant a license to manufacture the
 enclosure design. This repository contains the public review website only.
 
-Model revision: compact 46 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
-2026-10-17. Source CAD SHA256: 2c3008410c2623f9a9011f37e34dcb9491b71d2cfa38a65b3af698ba44ba27cd.
+Model revision: narrow 40 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
+2026-10-17. Source CAD SHA256: c47b65f03f6e9965bcda9588372102be1a016ec0863283cdd727f43fbab5d38e.
+
+INSP and NORM legends now have 3 mm front-view gaps to the guard.
