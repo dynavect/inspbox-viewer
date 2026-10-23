@@ -29,8 +29,9 @@ INSP and NORM legends now have 3 mm front-view gaps to the guard.
 Light rocker now sits left of the inspection selector at the same center height,
 with matching ON above and OFF below. All eleven faceplate legends included.
 
-The three upper faceplate cutouts now align with the DOWN / ENABLE / UP housings,
-with opening sizes and switch/guard placements unchanged. Matching manufacturing revision: J.
+The three upper faceplate cutouts remain centered on the DOWN / ENABLE / UP
+housings. Their widths are reduced in Rev K; switch/guard placements and opening
+heights remain unchanged.
 
 Light rocker replaced by the complete McMaster-Carr 7395K37 model with its matching
 11.1125 x 30.95625 mm panel cutout. ON/OFF legends and other controls retained.
