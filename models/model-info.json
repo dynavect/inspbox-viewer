@@ -1,10 +1,10 @@
 {
   "title": "InspBox",
-  "components": 212,
+  "components": 211,
   "pcbIncluded": false,
   "units": "meters",
   "measurements": "millimeters",
-  "sourceHash": "27991a60e15a4ba676dfc566637e19373176eb158c1f23983afa8f2b34166846",
+  "sourceHash": "7111cc586b61525c60f1672a8c12a905b214def62afbee8e4f7d7eb986e7c42a",
   "hiddenByDefault": [
     "IB-0236",
     "IB-0241",
