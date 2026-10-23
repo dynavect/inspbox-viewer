@@ -22,9 +22,12 @@ apply to the software/assets; they do not grant a license to manufacture the
 enclosure design. This repository contains the public review website only.
 
 Model revision: narrow 40 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
-2026-10-17. Source CAD SHA256: 9e4299d6e86615ecef4bd93ef4f3cd52cc0e3841b8c31192f69867658a1b4b52.
+2026-10-23. Source CAD SHA256: 27991a60e15a4ba676dfc566637e19373176eb158c1f23983afa8f2b34166846.
 
 INSP and NORM legends now have 3 mm front-view gaps to the guard.
 
 Light rocker now sits left of the inspection selector at the same center height,
 with matching ON above and OFF below. All eleven faceplate legends included.
+
+The three upper faceplate cutouts now align with the DOWN / ENABLE / UP housings,
+with opening sizes and switch/guard placements unchanged. Matching manufacturing revision: I.
