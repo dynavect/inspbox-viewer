@@ -22,7 +22,7 @@ apply to the software/assets; they do not grant a license to manufacture the
 enclosure design. This repository contains the public review website only.
 
 Model revision: narrow 40 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
-2026-10-23. Source CAD SHA256: 7111cc586b61525c60f1672a8c12a905b214def62afbee8e4f7d7eb986e7c42a.
+2026-10-23. Source CAD SHA256: fa117509c58d3ac6b52e38bc78085e25693e24e1125658a467577cad5db1026d.
 
 INSP and NORM legends now have 3 mm front-view gaps to the guard.
 
@@ -34,3 +34,7 @@ with opening sizes and switch/guard placements unchanged. Matching manufacturing
 
 Light rocker replaced by the complete McMaster-Carr 7395K37 model with its matching
 11.1125 x 30.95625 mm panel cutout. ON/OFF legends and other controls retained.
+
+Upper switch openings now leave 0.20 mm nominal side clearance before coating;
+DOWN/UP widths 13.735 mm and ENABLE width 14.116 mm. Physical finished fit is
+subject to actual controls and coating tolerances. Matching package: Rev K.
