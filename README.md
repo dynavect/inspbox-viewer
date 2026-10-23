@@ -22,7 +22,8 @@ apply to the software/assets; they do not grant a license to manufacture the
 enclosure design. This repository contains the public review website only.
 
 Model revision: narrow 40 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
-2026-10-23. Source CAD SHA256: fa117509c58d3ac6b52e38bc78085e25693e24e1125658a467577cad5db1026d.
+2026-10-23. Enclosure now has six 9 mm M8 mounting holes: four original centers retained and an accessible pair added beside the faceplate-covered area.
+Source CAD SHA256: 75e14b0bd4675568dd8f049e4bae756def9a146568e4e6b2f2ca882088eb3cd6.
 
 INSP and NORM legends now have 3 mm front-view gaps to the guard.
 
