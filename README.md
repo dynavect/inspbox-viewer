@@ -1,42 +1,11 @@
 # InspBox 3D review viewer
 
-Open the interactive model at **https://dynavect.github.io/inspbox-viewer/**.
+Open https://dynavect.github.io/inspbox-viewer/ . Drag to rotate, wheel to zoom, middle/right drag to pan. Front, Isometric, Faceplate and Open enclosure provide useful views. Reset shows all exported parts, including the door.
 
-Rotate by dragging, zoom with the wheel, and pan with the middle or right mouse
-button. Use the component tree to hide parts, or select Open enclosure to see
-inside. Reset restores all exported parts, including the door.
+Customer layout, 31 October 2026: Vantage/Nexus logos, STOP/ENABLE, LIGHT/INSP-NORM, vertical UP/DOWN beside the outlet, two rows of indicators and centered buzzer. Existing hardware retained; six M8 enclosure mounting holes unchanged. Includes 226 components and thirteen legends. PCB, display and board connectors are excluded from the model itself.
 
-This display export includes 211 enclosure components and faceplate lettering.
-The PCB, attached display and board connectors are excluded. The ruler reports
-millimetres; the Details panel reports model dimensions in metres. Explode is
-illustrative, and section views do not add solid cut faces. Use approved CAD and
-manufacturing documents for fabrication, not measurements from this review mesh.
+Display mesh approximately 60 MB; allow time for download and outline generation. Measurements report millimetres; model internals use metres. Section/explode are illustrative. Manufacturing CAD/documents control fabrication; this mesh is for visual review.
 
-The model is approximately 55 MB. Allow time for the initial download and outline
-generation. A desktop browser with WebGL is recommended.
+Viewer: Online 3D Viewer 0.18.0, https://github.com/kovacsv/Online3DViewer . Software/asset licenses are included; they do not grant a license to manufacture the enclosure. Only review-site assets are published.
 
-Viewer software: [Online 3D Viewer 0.18.0](https://github.com/kovacsv/Online3DViewer),
-with local controls and branding. Third-party licenses and asset attribution
-are included under `licenses/` and the relevant asset directories. Those licenses
-apply to the software/assets; they do not grant a license to manufacture the
-enclosure design. This repository contains the public review website only.
-
-Model revision: narrow 40 x 32 mm INSP/NORM guard with an 18.5 mm round opening and 35.2 mm upper button pitch,
-2026-10-23. Enclosure now has six 9 mm M8 mounting holes: four original centers retained and an accessible pair added beside the faceplate-covered area.
-Source CAD SHA256: 75e14b0bd4675568dd8f049e4bae756def9a146568e4e6b2f2ca882088eb3cd6.
-
-INSP and NORM legends now have 3 mm front-view gaps to the guard.
-
-Light rocker now sits left of the inspection selector at the same center height,
-with matching ON above and OFF below. All eleven faceplate legends included.
-
-The three upper faceplate cutouts remain centered on the DOWN / ENABLE / UP
-housings. Their widths are reduced in Rev K; switch/guard placements and opening
-heights remain unchanged.
-
-Light rocker replaced by the complete McMaster-Carr 7395K37 model with its matching
-11.1125 x 30.95625 mm panel cutout. ON/OFF legends and other controls retained.
-
-Upper switch openings now leave 0.20 mm nominal side clearance before coating;
-DOWN/UP widths 13.735 mm and ENABLE width 14.116 mm. Physical finished fit is
-subject to actual controls and coating tolerances. Matching package: Rev K.
+Source CAD SHA256: 89669dddb52bd41ff70250040803fcdae0f5e99165946d38d65cfeb75859159d
