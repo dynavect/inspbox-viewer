@@ -1,11 +1,15 @@
 # InspBox 3D review viewer
 
-Open https://dynavect.github.io/inspbox-viewer/ . Drag to rotate, wheel to zoom, middle/right drag to pan. Front, Isometric, Faceplate and Open enclosure provide useful views. Reset shows all exported parts, including the door.
+https://dynavect.github.io/inspbox-viewer/#model=models/inspbox-no-pcb.glb
 
-Customer layout, 31 October 2026: Vantage/Nexus logos, STOP/ENABLE, LIGHT/INSP-NORM, vertical UP/DOWN beside the outlet, two rows of indicators and centered buzzer. Existing hardware retained; six M8 enclosure mounting holes unchanged. Includes 226 components and thirteen legends. PCB, display and board connectors are excluded from the model itself.
+Approved Vantage/Nexus vector logos, 1 November 2026. Customer control layout and
+all hardware unchanged. 226 components; PCB, attached display
+and board connectors excluded. Door and all exported components show by default.
+Drag to rotate, wheel to zoom. Front, Isometric, Faceplate and Open enclosure
+provide inspection views. Reset restores the full model. Section/explode and
+measurements are for visual review; manufacturing CAD controls fabrication.
 
-Display mesh approximately 60 MB; allow time for download and outline generation. Measurements report millimetres; model internals use metres. Section/explode are illustrative. Manufacturing CAD/documents control fabrication; this mesh is for visual review.
-
-Viewer: Online 3D Viewer 0.18.0, https://github.com/kovacsv/Online3DViewer . Software/asset licenses are included; they do not grant a license to manufacture the enclosure. Only review-site assets are published.
-
-Source CAD SHA256: 89669dddb52bd41ff70250040803fcdae0f5e99165946d38d65cfeb75859159d
+Source CAD SHA256: 24a7260680f8d18c75b76b32c9cfee9f36aab919e0d53f98288f02cf64ef9826
+GLB SHA256: db17de9c6eb6fb1608a707ccc1eef94849f7c4bc7c1a9bae36ddb37c5c0f4f77
+Viewer: Online 3D Viewer 0.18.0, https://github.com/kovacsv/Online3DViewer .
+Software licenses are included; they do not grant a license to manufacture this design.
